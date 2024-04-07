@@ -1,0 +1,25 @@
+{
+  "name": "kaiwen/tools",
+  "description": "工具",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "kaiwen",
+      "email": "kaiwen@example.com"
+    }
+  ],
+  "require": {
+      "php": ">=7.4",
+      "ext-curl": "*",
+      "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "kaiwen\\tools\\": ["src/"] },
+    "files":[
+      "src/Helpers/functions.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
